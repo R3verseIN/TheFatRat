@@ -1,3 +1,6 @@
+# Moded Description
+This tool has been moded by r3verse.in that bypasses use over ssh.
+
 
 # TheFatRat 
 
@@ -37,7 +40,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 # Installation
 Instructions on how to install *TheFatRat*
 ```bash
-git clone https://github.com/Screetsec/TheFatRat.git
+git clone https://github.com/r3verse.in/TheFatRat.git
 cd TheFatRat
 chmod +x setup.sh && ./setup.sh
 ```
@@ -80,7 +83,6 @@ chmod +x chk_tools
 
 
 ## Changelog
-All notable changes to this project will be documented in this [file](https://github.com/Screetsec/thefatrat/blob/master/CHANGELOG.md).
 
 ### About issues
 - Read the [document](https://github.com/Screetsec/TheFatRat/blob/master/issues.md) before making an issue
@@ -108,5 +110,6 @@ All notable changes to this project will be documented in this [file](https://gi
 
 ## License
 TheFatRat is made with 🖤 by Edo Maland & All [Contributors](https://github.com/Screetsec/TheFatRat/graphs/contributors). See the **License** file for more details.
+This tool is modified by r3verse.in
 
 

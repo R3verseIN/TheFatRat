@@ -1408,27 +1408,27 @@ read -r abor
 exit 0
 ;;
 esac
-echo -e "$green" "Checking type of shell ...."
-sleep 1
+# echo -e "$green" "Checking type of shell ...."
+# sleep 1
 
 #Check if user is using a remote shell or a local terminal
-if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
-  echo "[remote]"
-echo ""
-    echo -e "$red" "Fatrat & Setup does not work over a remote secure shell ."
-    echo ""
-echo -e "$green" "If you want to Install Fatrat on a remote computer then "
-echo -e "$green" "use a remote desktop connection like rdesktop or vnc) "
-echo ""
-echo -e "$green" "Press [ENTER] key to exit"
-read -r abor
-exit 1
-else
-echo "[local]"
-  case $(ps -o comm= -p $PPID) in
-    sshd|*/sshd) SESSION_TYPE=remote/ssh;;
-  esac
-fi
+# if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+#   echo "[remote]"
+# echo ""
+#     echo -e "$red" "Fatrat & Setup does not work over a remote secure shell ."
+#     echo ""
+# echo -e "$green" "If you want to Install Fatrat on a remote computer then "
+# echo -e "$green" "use a remote desktop connection like rdesktop or vnc) "
+# echo ""
+# echo -e "$green" "Press [ENTER] key to exit"
+# read -r abor
+# exit 1
+# else
+# echo "[local]"
+#   case $(ps -o comm= -p $PPID) in
+#     sshd|*/sshd) SESSION_TYPE=remote/ssh;;
+#   esac
+# fi
 sleep 1
 which nc > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
