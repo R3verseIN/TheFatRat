@@ -40,7 +40,7 @@ Developers assume no liability and are not responsible for any misuse or damage 
 # Installation
 Instructions on how to install *TheFatRat*
 ```bash
-git clone https://github.com/r3verse.in/TheFatRat.git
+git clone https://github.com/r3versein/TheFatRat.git
 cd TheFatRat
 chmod +x setup.sh && ./setup.sh
 ```
@@ -110,6 +110,6 @@ chmod +x chk_tools
 
 ## License
 TheFatRat is made with 🖤 by Edo Maland & All [Contributors](https://github.com/Screetsec/TheFatRat/graphs/contributors). See the **License** file for more details.
-This tool is modified by r3verse.in
+This tool is modified by r3versein
 
 
